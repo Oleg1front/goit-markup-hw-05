@@ -496,6 +496,9 @@ header {
 .logo-container {
   margin-right: 120px;
 }
+.social-media-container {
+  margin-right: 80px;
+}
 .social-media-text {
   color: var(--WHITE, #fff);
   font-family: Roboto;
@@ -530,4 +533,52 @@ header {
 }
 .footer-social-media-icon {
   fill: #f4f4fd;
+}
+
+/* Subscribe form */
+
+.subscribe-text {
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+input {
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: var(--NAVY-BLUE, #2e2f42);
+  width: 264px;
+  height: 40px;
+  padding: 8px 212px 8px 16px;
+  margin-right: 24px;
+}
+input::placeholder {
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.48px;
+}
+
+.submit-button {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: var(--IRIS, #4d5ae5);
 }
