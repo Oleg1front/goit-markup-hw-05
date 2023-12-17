@@ -621,6 +621,43 @@
           </form>
         </div>
       </div>
+      <div class="modal-container">
+        <button>
+          <svg class="close-button" width="24" height="24" fill="none">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form name="contacts-form" autocomplete="off" novalidate>
+          <div class="inputs-container">
+            <label class="input">
+              Name
+              <input type="text" name="username" class="input-field" />
+            </label>
+            <label class="input">
+              Phone
+              <input type="tel" name="userphone" class="input-field" />
+            </label>
+            <label class="input">
+              Email
+              <input type="email" name="useremail" class="input-field" />
+            </label>
+            <label class="input">
+              Comment
+              <textarea
+                name="user-comment"
+                rows="5"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+          </div>
+          <label>
+            <input type="checkbox" name="terms" />
+            I accept the terms and conditions of the <span>Privacy Policy</span>
+          </label>
+          <button type="submit">Send</button>
+        </form>
+      </div>
     </footer>
   </body>
 </html>
