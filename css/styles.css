@@ -744,6 +744,12 @@ header {
   margin-bottom: 24px;
 }
 
+.checkbox-text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
 .privacy-label {
   font-size: 12px;
   line-height: 1.17;
@@ -764,7 +770,7 @@ header {
   justify-content: center;
   fill: transparent;
 }
-input[type="cheackbox"]:checked .check-span {
+.privacy-label:checked .check-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
