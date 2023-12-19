@@ -709,8 +709,14 @@ header {
   background-color: #fcfcfc;
   border-radius: 4px;
   border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+  background-color: transparent;
 }
-
+.input-field:focus {
+  border-color: #4d5ae5;
+}
+.input-field:focus .input-field-icon {
+  fill: #4d5ae5;
+}
 .comment-container {
   margin-bottom: 16px;
 }
