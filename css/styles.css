@@ -770,7 +770,7 @@ header {
   justify-content: center;
   fill: transparent;
 }
-.privacy-label:checked .check-span {
+.privacy-label[type="checkbox"]:checked + .check-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
