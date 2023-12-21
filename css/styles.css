@@ -714,7 +714,7 @@ header {
 .input-field:focus {
   border-color: #4d5ae5;
 }
-.input-field:focus .input-field-icon {
+.input-field:focus + .input-field-icon {
   fill: #4d5ae5;
 }
 .comment-container {
