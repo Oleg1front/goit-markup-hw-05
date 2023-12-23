@@ -552,7 +552,6 @@ header {
   width: 264px;
   height: 40px;
   padding-left: 16px;
-  margin-right: 24px;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
@@ -579,7 +578,6 @@ header {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   color: var(--WHITE, #fff);
   text-align: center;
   font-family: Roboto, sans-serif;
